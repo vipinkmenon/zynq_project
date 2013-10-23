@@ -1,0 +1,15 @@
+##############################################################################
+## Filename:          D:/ug_labs/zynq_custom_ip/edk/pcores/fft_peripheral_v1_00_a/data/fft_peripheral_v2_1_0.pao
+## Description:       Peripheral Analysis Order
+## Date:              Wed Oct 23 10:31:30 2013 (by Create and Import Peripheral Wizard)
+##############################################################################
+
+lib proc_common_v3_00_a  all 
+lib axi_slave_burst_v1_00_a  all 
+lib fft_peripheral_v1_00_a user_logic verilog
+lib fft_peripheral_v1_00_a fft_computer verilog
+lib fft_peripheral_v1_00_a fft_core verilog
+lib fft_peripheral_v1_00_a multiplier verilog
+lib fft_peripheral_v1_00_a output_ctrl verilog
+lib fft_peripheral_v1_00_a output_fifo verilog
+lib fft_peripheral_v1_00_a fft_peripheral vhdl

@@ -1,0 +1,10 @@
+-batch 
+-create fft_peripheral 
+-ver 1.00.a 
+-dir "D:\ug_labs\zynq_custom_ip\edk" 
+-lang verilog 
+-bus axi4 s 
+-burst s 32 
+-rfifo 1 32 
+-arn 1 
+-xps 
