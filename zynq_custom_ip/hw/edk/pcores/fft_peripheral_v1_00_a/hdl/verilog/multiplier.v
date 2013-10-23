@@ -11,7 +11,8 @@ input             i_data_ready
 
 assign o_data_ready   =   i_data_ready;
 
-
+//Just pipeline the input data valid to make the output data valid since output data is one clock delayed
+//from the input data
 always @(posedge i_clk)
 begin
     if(!i_rst_n)
